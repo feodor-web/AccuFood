@@ -46,8 +46,24 @@
                     <img class="header__img header__img--action" src="/images/settings-icon.svg">
                 </a>
             </div>
+            .header {
+                width: 100vw;
+                height: calc(clamp(48px, 3rem, 100px) + 0.6rem);
+                box-sizing: border-box;
+                padding: 0.3rem;
+                background-color: var(--bg-block);
+                border-bottom: var(--border-block);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1rem;
+            }
         </header> -->
-        <header class="flex h-[calc(clamp(48px,3rem,100px)+0.6rem)] w-screen items-center justify-between gap-4 border-b-2 border-[#d8d8d8] bg-bg-block p-[0.3rem] box-border">
+        <header class="w-screen h-[calc(clamp(48px, 3rem, 100px) + 0.6rem)] box-sizi">
+
+        </header>
+        <!-- <header class="flex h-[calc(clamp(48px,3rem,100px)+0.6rem)] w-screen items-center justify-between gap-4 border-b-2 border-[#d8d8d8] bg-bg-block p-[0.3rem] box-border">
             
             <a class="flex h-full items-center justify-center pl-4">
                 <img class="h-[80%] w-auto transition-transform duration-200 ease-bounce hover:scale-[1.02] hover:cursor-pointer active:cursor-progress" 
@@ -84,7 +100,7 @@
                 </a>
 
             </div>
-        </header>
+        </header> -->
 
         <h1 class="text-3xl font-bold text-sky-500">Привет, AccuFood!</h1>
     </body>
