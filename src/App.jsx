@@ -1,9 +1,14 @@
-function App() {
-  return (
-    <div className="flex h-screen items-center justify-center bg-slate-900 text-white">
-      <h1 className="text-4xl font-bold text-sky-400">AccuFood на React запущен!</h1>
-    </div>
-  )
-}
+import { Header } from './components/Header.jsx';
 
-export default App
+export default function App() {
+    return (
+        <>
+            <Header /> {/* Шапка встанет ровно сюда */}
+            
+            <main>
+                <p>лялька</p>
+                <h1 className="text-3xl font-bold text-sky-500">Привет, AccuFood!</h1>
+            </main>
+        </>
+    );
+}

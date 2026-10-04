@@ -19,91 +19,10 @@
 
         <link rel="icon" type="image/svg+xml" href="/images/logo-icon.svg"/>
 
-        <link rel="stylesheet" href="../dist/output.css">
+        <link rel="stylesheet" href="/dist/output.css">
     </head>
     <body>
-        <!-- <header class="header">
-            <a class="header__logo">
-                <img class="header__img" src="/images/logo-together.svg" alt="AccuFood - Главная страница.">
-            </a>
-            <nav class="header__nav">
-                <a class="header__link" href="/index.html">Главная</a>
-                <a class="header__link header__link--accent">Калькулятор</a>
-                <a class="header__link">Инструкция</a>
-                <a class="header__link">БДП</a>
-            </nav>
-            <div class="header__actions">
-                <div class="header__user">
-                    <a class="header__link--img header__link--img-user">
-                        <img class="header__img header__img-user" src="/images/user-icon.svg">
-                    </a>
-                    <a class="header__link header__link--user">Абдурахман...</a>
-                </div>
-                <a class="header__link--img">
-                    <img class="header__img header__img--action" src="/images/mail-icon.svg">
-                </a>
-                <a class="header__link--img" href="/index.html">
-                    <img class="header__img header__img--action" src="/images/settings-icon.svg">
-                </a>
-            </div>
-            .header {
-                width: 100vw;
-                height: calc(clamp(48px, 3rem, 100px) + 0.6rem);
-                box-sizing: border-box;
-                padding: 0.3rem;
-                background-color: var(--bg-block);
-                border-bottom: var(--border-block);
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-                gap: 1rem;
-            }
-        </header> -->
-        <header class="w-screen h-[calc(clamp(48px, 3rem, 100px) + 0.6rem)] box-sizi">
-
-        </header>
-        <!-- <header class="flex h-[calc(clamp(48px,3rem,100px)+0.6rem)] w-screen items-center justify-between gap-4 border-b-2 border-[#d8d8d8] bg-bg-block p-[0.3rem] box-border">
-            
-            <a class="flex h-full items-center justify-center pl-4">
-                <img class="h-[80%] w-auto transition-transform duration-200 ease-bounce hover:scale-[1.02] hover:cursor-pointer active:cursor-progress" 
-                    src="/images/logo-together.svg" 
-                    alt="AccuFood - Главная страница.">
-            </a>
-
-            <nav class="flex h-full items-center gap-8">
-                <a class="font-Inter text-[clamp(0.875rem,0.5vw+0.75rem,3rem)] font-300 text-txt-main no-underline transition-colors duration-300 ease-in-out hover:text-[#5d99d4] hover:cursor-pointer active:text-[#cbe4fc] active:cursor-progress" 
-                href="/index.html">Главная</a>
-                
-                <a class="font-Inter text-[clamp(0.875rem,0.5vw+0.75rem,3rem)] font-300 transition-colors duration-300 ease-in-out hover:cursor-pointer text-[#2563eb] underline hover:text-[#074f70] active:text-[#212121]">Калькулятор</a>
-                
-                <a class="font-Inter text-[clamp(0.875rem,0.5vw+0.75rem,3rem)] font-300 text-txt-main no-underline transition-colors duration-300 ease-in-out hover:text-[#5d99d4] hover:cursor-pointer active:text-[#cbe4fc] active:cursor-progress">Инструкция</a>
-                
-                <a class="font-Inter text-[clamp(0.875rem,0.5vw+0.75rem,3rem)] font-300 text-txt-main no-underline transition-colors duration-300 ease-in-out hover:text-[#5d99d4] hover:cursor-pointer active:text-[#cbe4fc] active:cursor-progress">БДП</a>
-            </nav>
-
-            <div class="flex h-full items-center gap-4 pr-4">
-
-                <div class="user-group flex h-full items-center gap-2 border-r-2 border-[#d8d8d8] pr-4 text-txt-main font-800">
-                    <a class="user-avatar-link flex h-[80%] aspect-square items-center justify-center overflow-hidden rounded-full border border-[#0f172a] transition-transform duration-300 ease-in-out">
-                        <img class="h-full w-full object-contain" src="/images/user-icon.svg">
-                    </a>
-                    <a class="user-text-link font-Inter text-[clamp(0.875rem,0.5vw+0.75rem,3rem)] font-300 text-txt-main transition-colors duration-300 ease-in-out hover:text-[#0f172a] hover:underline hover:cursor-pointer active:cursor-progress">Абдурахман...</a>
-                </div>
-
-                <a class="flex h-full w-auto items-center">
-                    <img class="h-[60%] w-auto border-b border-transparent hover:border-[#0f172a]" src="/images/mail-icon.svg">
-                </a>
-
-                <a class="flex h-full w-auto items-center" href="/index.html">
-                    <img class="h-[60%] w-auto border-b border-transparent hover:border-[#0f172a]" src="/images/settings-icon.svg">
-                </a>
-
-            </div>
-        </header> -->
-
-        <h1 class="text-3xl font-bold text-sky-500">Привет, AccuFood!</h1>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
     </body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
 </html>

@@ -10,3 +10,28 @@
     src: url(/fonts/Recursive.ttf), format('truetype');
     font-display: swap;
 }
+@theme {
+    --color-bg-block: #fafafc;
+    --color-border-block: #d8d8d8;
+    --color-txt-main: #0F172A;
+}
+
+@utility default-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+body, html, p, h1, h2, h3, h4, h5, li, ul, ol {
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    width: 100%;
+    font-family: Inter;
+}
+/* :root {
+    --bg-main: #ffffff;
+    --bg-block: #fafafc;
+    --border-block: 2px solid #d8d8d8;
+    
+} */

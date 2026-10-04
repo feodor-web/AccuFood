@@ -13,10 +13,12 @@
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-react": "^6.1.1",
     "tailwindcss": "^4.3.3"
   },
   "dependencies": {
+    "@import-meta-env/cli": "^0.7.4",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   }
